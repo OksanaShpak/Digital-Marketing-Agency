@@ -482,6 +482,7 @@ body {
 
 .slick-dots {
     display: flex;
+    list-style-type: none;
 }
 
 .slick-dots li+li {
