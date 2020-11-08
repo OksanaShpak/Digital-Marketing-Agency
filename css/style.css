@@ -91,6 +91,15 @@ body {
     left: 0;
 }
 
+.header__top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
 .header__top-inner {
     padding-bottom: 29px;
     display: flex;
@@ -132,6 +141,7 @@ body {
     background-position: center center;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
 }
 
 .header__content-inner {
@@ -788,8 +798,12 @@ address {
     .slider-blog,
     .team,
     .pricing,
-    .connection-title {
+    .connection {
         padding: 75px 0;
+    }
+
+    .header__top-inner {
+        padding-bottom: 5px;
     }
 
     .about__text p {
@@ -1079,4 +1093,6 @@ address {
         padding-left: 0px;
         padding-top: 60px;
     }
+
+
 }
